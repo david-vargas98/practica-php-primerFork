@@ -31,7 +31,7 @@ final class PracticaTest extends TestCase
     public function testPost(): void
     {
         $client = new Client();
-        $response = $client->post('http://localhost/practica-php/formulario.php', [
+        $response = $client->post('http://localhost/practica-php-primerFork/formulario.php', [
                 'form_params' => [
                     'nombre' => 'edgar',
                     'correo' => 'correo@live.com',
